@@ -22,7 +22,7 @@ public class Product {
 
     public void setName(String name) {
 
-        if(name==null ||name.length()>100){
+        if(name==null || name.length()>100){
             throw new RuntimeException("invalid name ");
         }
         this.name = name;
